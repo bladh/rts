@@ -57,7 +57,7 @@ units will automatically attack enemy units that are "in sight".
 
 There are no numbers, but with some tweaking, consider the following:
 
-(Friendly unit *vision* value) - (Distance to enemy unit) - (Enemy unit *visibility* value)
+(Friendly unit *vision* value) - (Distance to enemy unit) - (Enemy unit *visibility* modifier)
 
 If the resulting value is too low, then the enemy unit would not be visible to
 the player. Likely this means that unit is too far away, but it also means some
@@ -68,9 +68,12 @@ would also be visible as a dot on the minimap.
 
 This should let players do sneaky vision plays, skirting the enemies vision
 with a forward infantry scout and gather information their opponent would not
-have. Since having units close together should impact their *visibility* value
-it should discourage players to move around their army in big blobs, because
-this would make their army movements very visible to their opponents.
+have. Since having units close together should impact their *visibility*
+modifier it should discourage players to move around their army in big blobs,
+because this would make their army movements very visible to their opponents.
+Also consider that this visibility modifier keeps stacking with more units -
+if the opponent would mass up a large force of heavy tanks, your infantry may
+even sense their movements from further away than they can actually see.
 
 Helicopters give you a lot of vision, very quickly. Their downside is that they
 are very visible, so your opponent would know that you know what they're doing.
