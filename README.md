@@ -35,13 +35,45 @@ reasons.
 ## Vision / Fog of war
 
 * Tanks and workers have a very low range of vision.
-
-* Infantry has a medium range of vision
-
-* Helicopters have a long range of vision
+* Infantry has a medium range of vision.
+* Helicopters have a long range of vision.
 
 Heightmap affects the vision, so units may hide in crevasses or craters.
 Helicopters ignore this completely since their field of view is from above.
+
+Visible units would show up on the minimap, however the minimap will not be
+100% reliable in this game because different units have different "visibility"
+values.
+
+Heavy tanks have a high visibility value. Helicopters in flight have a
+very high visibility value. As you may expect, infantry have a low visibility
+value.
+
+As another interaction to visibility, adjacent units increase each others
+visibility value (so a squad of infantry is more visible than a lone infantry).
+
+This visibility affects how enemy units become reported to the minimap, and if
+units will automatically attack enemy units that are "in sight".
+
+There are no numbers, but with some tweaking, consider the following:
+
+(Friendly unit *vision* value) - (Distance to enemy unit) - (Enemy unit *visibility* value)
+
+If the resulting value is too low, then the enemy unit would not be visible to
+the player. Likely this means that unit is too far away, but it also means some
+smaller units could inch closer than expected, because they are being stealthy.
+
+If the value is high enough, then the unit would not only be visible, but they
+would also be visible as a dot on the minimap.
+
+This should let players do sneaky vision plays, skirting the enemies vision
+with a forward infantry scout and gather information their opponent would not
+have. Since having units close together should impact their *visibility* value
+it should discourage players to move around their army in big blobs, because
+this would make their army movements very visible to their opponents.
+
+Helicopters give you a lot of vision, very quickly. Their downside is that they
+are very visible, so your opponent would know that you know what they're doing.
 
 ## Structures
 
@@ -96,8 +128,7 @@ immobilized. Flying vehicles will make an emergency landing and power off.
 
 #### Infantry
 
-Multi-role unit. Can do very basic terraforming and capture structures.
-Can help hauling munitions in a pinch.
+Multi-role unit. Can capture structures. Can help hauling munitions in a pinch.
 
 Infantry can capture vehicles that are out of energy. This will use up
 the infantry and convert the vehicle, but it will still need to be recharged.
@@ -111,7 +142,7 @@ Light vehicle which creates all structures in the game. It can also
 do better excavations than Infantry units. Can do some hauling.
 
 Workers do not require energy, but they are rather slow and have very low
-line of sight.
+line of sight. Workers can be captured by infantry at any time.
 
 #### Mobile battery
 
@@ -129,11 +160,16 @@ fairly well. Line of sight is lower than infantry.
 
 #### Heavy tank
 
-Pricier, slower, tougher. uses more electricity than light tanks.
+Pricier, slower, tougher, longer range. uses more electricity than light tanks.
+
+The heavy tank attack will have splash damage and damage nearby units.
 
 #### Helicopter
 
 Scouts the battlefield quickly, but has only a light gun.
+
+Maybe the helicopter may also carry a small amount of infantry, so they
+could be transported quickly.
 
 The helicopter is quite energy intensive and a player looking to use
 helicopters would have to invest in mobile batteries for anything beyond
