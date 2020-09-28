@@ -1,5 +1,21 @@
 # Unnamed scifi rts
 
+## Setting
+
+Gritty, used futuristic. Smaller factions battling it out over mining minerals
+on some far away moon. The energy tech implies a more advanced civilization,
+but ammunition and gear are relatively low tech, so most likely the technically
+advanced stuff is either too expensive or too far away to be used in these
+conflicts. Units are humble (mostly infantry, some tanks and some helicopters)
+
+People depicted in this game are implied to be rather low cast in society, due
+to being left fighting each other in some remote location (that mines some
+basic ore and whoever is buying does not care who is selling).
+
+Technology is crude and factions should be human. Not opposed to adding some
+primitive alien race (like xenomorphs) that doesn't have any higher ambition
+than eating.
+
 ## Terrain
 
 Tilemap, with height. Enough damage from explosions can level hills,
