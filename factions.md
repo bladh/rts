@@ -48,7 +48,8 @@ Their excavation options are limited and they can't dig tunnels underground.
 
 * Infantry
 * Worker (infantry version of imc worker)
-* Motorcycle (infantry can embark/disembark)
+* Sniper (slow, sneaky pricy unit. multiple snipers dramatically increase
+their visibility modifier.)
 * Renegade Tank
 * Recon Balloon
 * Truck (hauling unit, faster than IMC counterpart)
@@ -59,6 +60,7 @@ Their excavation options are limited and they can't dig tunnels underground.
 * Power Generator
 * Bunker (low visibility modifier unless shooting)
 * Cache (contains resources, low visibility modifier)
+* Improvised mine (Only visible for infantry)
 
 ## Skryj
 
