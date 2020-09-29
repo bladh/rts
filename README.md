@@ -98,3 +98,6 @@ are very visible, so your opponent would know that you know what they're doing.
 
 See the [factions](factions.md) document for more information.
 
+## Gameplay scenario
+
+See the [gameplay scenario](scenario.md) document.
