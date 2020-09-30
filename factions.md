@@ -15,10 +15,12 @@ You only get one! Constantly mines minerals. Can be upgraded a few times,
 but each "upgrade level" costs electricity. The Excavator is equipped with
 a small reactor that takes care of its basic energy requirements.
 
+Each upgrade makes it a little bit more sturdy, and increases income.
+
 #### Barracks
 
-Small, cheap building that can crank out Infantry. Functions without
-power, at a bit slower capacity. Needs to be supplied with metals to work.
+Small, cheap building that can crank out Infantry.  Needs to be supplied with
+metals to work.
 
 #### Power generator
 
@@ -39,6 +41,9 @@ Produces munitions. Munitions must be brought to units for reload.
 * Light munition
 * Medium munition
 * Heavy munition
+
+Consider if 3 different types are too much, and it should just produce
+"munitions".
 
 #### Turret
 
@@ -129,23 +134,53 @@ from others.
 
 Their excavation options are limited and they can't dig tunnels underground.
 
-#### Units
+### Units
 
-* Infantry
-* Worker (infantry version of imc worker)
-* Sniper (slow, sneaky pricy unit. multiple snipers dramatically increase
-their visibility modifier.)
-* Renegade Tank
+#### Infantry
+
+Similar to IMC infantry in most respects.
+
+#### Worker
+
+Not a light vehicle unlike the IMC counterpart
+
+#### Sniper
+
+Costs a bit more than Infantry, and has a lower line of sight, requiring
+Infantry to act as spotters. Their visibility modifier also goes up more
+dramatically than it does for other units if the snipers are clumped too close
+together.
+
+They can be set to "hunker down", lowering their visibility modifier and
+allowing them to attack. They have very long range and do a lot of damage with
+their attacks against infantry, but they can't attack anyone that gets too
+close.
+
+#### Renegade Tank
+
+Old military hardware that probably changed more owners than there have been
+wars, kept in tolerable shape. They can hold on their own well against IMC
+light tanks, but they need numbers against heavier hardware.
+
+#### Other units
 * Recon Balloon
-* Truck (hauling unit, faster than IMC counterpart)
 * Mobile Generator (slow, high vis)
 
-#### Structures
+### Structures
+
+#### Pirate Mine
+
+Old hardware that was either abandoned and found by the Pirates, or deemed too
+old to be properly defended. The pirates have since patched and fixed it, but
+it's still a huge piece of work. It doesn't generate as much income as an IMC
+mine, but pirate units are generally cheaper to make up for it.
+
+#### Other structures
 
 * Power Generator
 * Bunker (low visibility modifier unless shooting)
 * Cache (contains resources, low visibility modifier)
-* Improvised mine (Only visible for infantry)
+* Improvised explosive mine (Only visible for infantry)
 
 ## Skryj
 
@@ -172,7 +207,7 @@ No air units.
 
 #### Drone
 
-Skryj standard issue combat unit. Captures enemy infantry to bring home.
+Skryj standard issue combat unit. Takes dead enemy infantry to bring home.
 
 Drones can also enter a human building to abduct civilians from them.
 Drones have bad sight, but their antennae lets them detect enemy movement from
