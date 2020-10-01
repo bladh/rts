@@ -101,3 +101,7 @@ See the [factions](factions.md) document for more information.
 ## Gameplay scenario
 
 See the [gameplay scenario](scenario.md) document.
+
+## How would supply lines work?
+
+See the [supply lines](supply-lines.md) design document.

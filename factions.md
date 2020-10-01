@@ -15,6 +15,8 @@ You only get one! Constantly mines minerals. Can be upgraded a few times,
 but each "upgrade level" costs electricity. The Excavator is equipped with
 a small reactor that takes care of its basic energy requirements.
 
+This structure builds workers.
+
 Each upgrade makes it a little bit more sturdy, and increases income.
 
 #### Barracks
@@ -60,6 +62,10 @@ range.
 
 Armored structure that holds resources. Resources are lost if the
 depot is destroyed.
+
+#### Manufactory
+
+Builds vehicles.
 
 ### Units
 
@@ -168,12 +174,18 @@ light tanks, but they need numbers against heavier hardware.
 
 ### Structures
 
-#### Pirate Mine
+#### Pirate HQ
 
 Old hardware that was either abandoned and found by the Pirates, or deemed too
 old to be properly defended. The pirates have since patched and fixed it, but
 it's still a huge piece of work. It doesn't generate as much income as an IMC
 mine, but pirate units are generally cheaper to make up for it.
+
+Both workers and normal infantry can be trained here.
+
+#### Workshop
+
+Trains infantry, snipers, and manufactures munitions.
 
 #### Other structures
 
