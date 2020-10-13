@@ -1,4 +1,4 @@
-# Unnamed scifi rts
+# Working title *DRILL*
 
 ## Setting
 
@@ -105,3 +105,7 @@ See the [gameplay scenario](scenario.md) document.
 ## How would supply lines work?
 
 See the [supply lines](supply-lines.md) design document.
+
+## So I heard you're using godot for this
+
+[Yep and there is a page about some godot specific things.](godot.md)

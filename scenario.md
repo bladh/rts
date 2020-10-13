@@ -2,10 +2,8 @@
 
 ## Multiplayer
 
-Should maps be fixed (Starcraft style) with preset starting locations?
-
-Or should they be randomized each time (Age of Empires style) with random
-starting locations?
+Depending on map, random starting positions or preset. IMC and Pirate starting
+positions will be revealed due to the emissions from their starting structure.
 
 ### Starting units
 
@@ -14,6 +12,8 @@ starting locations?
 1 mining facility
 
 3 infantry
+
+1 light tank
 
 #### Pirates
 
@@ -28,5 +28,3 @@ starting locations?
 1 queens den
 
 5 drones
-
-All non-skryj opponents starting positions revealed

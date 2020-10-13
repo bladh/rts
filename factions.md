@@ -67,6 +67,15 @@ depot is destroyed.
 
 Builds vehicles.
 
+#### Wall
+
+Simplest defensive structure. Impedes movement and vision.
+
+#### Outpost Tower
+
+Can be manned by infantry to increase their vision, but they would also be
+seen from more far away.
+
 ### Units
 
 All attacking units require some kind of munition to be able to attack.
@@ -86,8 +95,7 @@ has long line of sight.
 
 #### Worker
 
-Light vehicle which creates all structures in the game. It can also
-do better excavations than Infantry units. Can do some hauling.
+Light vehicle which creates all structures in the game. Can do some hauling.
 
 Workers do not require energy, but they are rather slow and have very low
 line of sight. Workers can be captured by infantry at any time.
@@ -168,10 +176,6 @@ Old military hardware that probably changed more owners than there have been
 wars, kept in tolerable shape. They can hold on their own well against IMC
 light tanks, but they need numbers against heavier hardware.
 
-#### Other units
-* Recon Balloon
-* Mobile Generator (slow, high vis)
-
 ### Structures
 
 #### Pirate HQ
@@ -186,6 +190,10 @@ Both workers and normal infantry can be trained here.
 #### Workshop
 
 Trains infantry, snipers, and manufactures munitions.
+
+#### Recon Balloon
+
+Anchored to target location.
 
 #### Other structures
 
